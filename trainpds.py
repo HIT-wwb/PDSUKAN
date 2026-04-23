@@ -46,7 +46,7 @@ def parse_args():
     parser.add_argument('--loss', default='BCEDiceLoss', choices=LOSS_NAMES)
     parser.add_argument('--dataset', default='glas')
     parser.add_argument('--data_dir', default='inputs')
-    parser.add_argument('--output_dir', default=r'D:\A__Project\U-KAN-main\2026423')
+    parser.add_argument('--output_dir', default=r'XXX')
     parser.add_argument('--lr', '--learning_rate', default=1e-4, type=float, metavar='LR')
     parser.add_argument('--weight_decay', default=1e-4, type=float)
     parser.add_argument('--min_lr', default=1e-5, type=float)
